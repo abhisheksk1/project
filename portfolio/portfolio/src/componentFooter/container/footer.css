@@ -1,0 +1,53 @@
+.social-icon {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    margin-right: 1rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.email {
+    color: #A4B0BD;
+    margin-left: -3rem;
+    margin-right: 3rem;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+}
+
+.dil {
+    color: #A4B0BD;
+    margin-left: -2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-item {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.social-icon:hover {
+    transition: 200ms ease-in;
+    cursor: pointer;
+}
+
+.hire {
+    margin-left: -10rem;
+    color: whitesmoke;
+}
+
+@media (max-width: 1000px) {
+    .email {
+        margin-top: -1rem;
+        margin-left: -6rem;
+    }
+    .social-item {
+        display: flex;
+        flex-direction: row;
+        margin-left: -17rem;
+        margin-right: 22rem;
+        margin-top: -7.4rem;
+    }
+}
