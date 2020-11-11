@@ -1,0 +1,13 @@
+img {
+    margin: 220px 400px 220px 420px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    align-items: center;
+}
+
+img:hover {
+    transition: 200ms ease-in-out;
+}

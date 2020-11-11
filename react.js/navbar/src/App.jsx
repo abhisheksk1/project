@@ -17,10 +17,9 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/contact-us" component={ContactUs} />
-
       </Switch>
     </Router>
   );
-}
+};
 
 export default App;
